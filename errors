@@ -1,0 +1,8 @@
+Database Connection Diagnostic
+❌ Connection Failed
+Error Message: SQLSTATE[HY000] [1045] Access denied for user '23203159'@'localhost' (using password: YES)
+
+Troubleshooting Tips:
+Unknown Database?: Check if 'adhoc' is the correct name.
+Access Denied?: Check password for user '23203159'.
+Connection Refused?: If DB is on a company server, change $host = 'localhost' in db.php to the server IP (e.g., 172.23.56.100).
