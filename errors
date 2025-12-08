@@ -1,6 +1,6 @@
 Database Connection Diagnostic
 ❌ Connection Failed
-Error Message: SQLSTATE[HY000] [1045] Access denied for user '23203159'@'localhost' (using password: YES)
+Error Message: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
 
 Troubleshooting Tips:
 Unknown Database?: Check if 'adhoc' is the correct name.
