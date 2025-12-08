@@ -1,8 +1,1 @@
-Database Connection Diagnostic
-❌ Connection Failed
-Error Message: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
-
-Troubleshooting Tips:
-Unknown Database?: Check if 'adhoc' is the correct name.
-Access Denied?: Check password for user '23203159'.
-Connection Refused?: If DB is on a company server, change $host = 'localhost' in db.php to the server IP (e.g., 172.23.56.100).
+Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\UFAA\db.php on line 23
