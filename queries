@@ -1,0 +1,15 @@
+select count(distinct TRIM("﻿owner_name") )
+from iceberg.adhoc.ufaa_23203159
+
+
+SELECT *
+FROM iceberg.adhoc.ufaa_23203159
+WHERE TRIM("﻿owner_name") = 'AUGUSTINE LOKI NYAMASYO';
+
+
+SELECT *
+FROM iceberg.adhoc.ufaa_23203159
+WHERE TRIM("﻿owner_name") IN (
+    'BENNAKAY SERVICES'
+);
+
