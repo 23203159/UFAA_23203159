@@ -1,1 +1,21 @@
-Fatal error: Uncaught Error: Call to undefined method TrinoStatement::bindValue() in C:\xampp\htdocs\UFAA\index.php:79 Stack trace: #0 {main} thrown in C:\xampp\htdocs\UFAA\index.php on line 79
+Why does it say Database Error: Trino Query Error: line 1:52: mismatched input 'OFFSET'. Expecting: <EOF>
+Could not fetch data. Check if table 'iceberg.adhoc.ufaa_23203159' exists.
+Page 1     When actually in testconnection itis successful as Trino HTTP Connection Check
+Test Type: CURL / HTTPS (Trino Protocol)
+
+Sending SELECT 1 to 172.23.56.100:8445...
+
+✅ Success! Connected via HTTPS.
+Array ( [test_col] => 1 )
+Checking Table: iceberg.adhoc.ufaa_23203159...
+
+✅ Table Accessible! Found 1 row(s).
+Array
+(
+    [﻿owner_name] => Elias Juma
+    [owner_dob] => 1983-01-01
+    [owner_id] => 25931089
+    [transaction_date] => 2019-05-17
+    [transaction_time] => 6:12:00 PM
+    [owner_due_amount] => 18
+)
