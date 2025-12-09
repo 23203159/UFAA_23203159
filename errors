@@ -1,3 +1,7 @@
+http://localhost/UFAA/index.php?view=upload&error=Error%3A+Trino+Query+Error%3A+Insert+column+name+does+not+exist+in+target+table%3A+owner_name
+
+
+
 Why does it say Database Error: Trino Query Error: line 1:52: mismatched input 'OFFSET'. Expecting: <EOF>
 Could not fetch data. Check if table 'iceberg.adhoc.ufaa_23203159' exists.
 Page 1     When actually in testconnection itis successful as Trino HTTP Connection Check
