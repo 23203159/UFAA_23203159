@@ -1,1 +1,1 @@
-http://localhost/UFAA/index.php?view=upload&error=Error%3A+Header+Row+found+but+NO+columns+matched+Database.+%0AValues+found%3A+%5B%222NK+SACCO+LIMITED%22%2C%22%22%2C%22No+ID%22%2C%2203%5C%2F08%5C%2F2022%22%2C%2216%3A16%3A59%22%2C%2270.00%22%5D.+%0AExpected+DB+Columns%3A+%5B%22%5Cufeffowner_name%22%2C%22owner_dob%22%2C%22owner_id%22%2C%22transaction_date%22%2C%22transaction_time%22%2C%22owner_due_amount%22%5D
+http://localhost/UFAA/index.php?view=upload&error=Error%3A+Trino+Query+Error%3A+Cannot+write+to+non-managed+Hive+table
