@@ -1,1 +1,1 @@
-http://localhost/UFAA/index.php?view=upload&error=Error%3A+Trino+Query+Error%3A+Cannot+delete+from+non-managed+Hive+table
+http://localhost/UFAA/index.php?view=view_data&f_name=&f_id=&f_dob=&f_amount=&f_date_start=2023-01-10&f_date_end=2025-12-10
