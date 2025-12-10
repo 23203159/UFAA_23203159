@@ -1,9 +1,1 @@
-Trino HTTP Connection Check
-Test Type: CURL / HTTPS (Trino Protocol)
-
-Sending SELECT 1 to 172.23.56.100:8445...
-
-
-Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\UFAA\trino_client.php on line 105
-
-Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\UFAA\trino_client.php on line 105
+http://localhost/UFAA/index.php?view=upload&error=Error%3A+Trino+Query+Error%3A+Insert+column+name+does+not+exist+in+target+table%3A+christian+de+faria
