@@ -1,1 +1,1 @@
-http://localhost/UFAA/index.php?view=upload&error=Error%3A+Trino+Query+Error%3A+line+1%3A8%3A+mismatched+input+%27OVERWRITE%27.+Expecting%3A+%27INTO%27
+http://localhost/UFAA/index.php?view=upload&error=Error%3A+Trino+Query+Error%3A+Access+Denied%3A+Cannot+select+from+columns+%5Bordinal_position%2C+extra_info%2C+table_schema%2C+column_name%2C+data_type%2C+comment%2C+table_name%5D+in+table+or+view+columns
