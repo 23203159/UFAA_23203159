@@ -1,1 +1,1 @@
-http://localhost/UFAA/index.php?view=upload&error=Error%3A+Trino+Query+Error%3A+Access+Denied%3A+Cannot+select+from+columns+%5Bordinal_position%2C+extra_info%2C+table_schema%2C+column_name%2C+data_type%2C+comment%2C+table_name%5D+in+table+or+view+columns
+http://localhost/UFAA/index.php?view=upload&error=Error%3A+Trino+Query+Error%3A+Insert+column+name+does+not+exist+in+target+table%3A+owner_name
