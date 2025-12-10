@@ -1,24 +1,9 @@
-http://localhost/UFAA/index.php?view=upload&error=Error%3A+Trino+Query+Error%3A+line+1%3A64%3A+Zero-length+delimited+identifier+not+allowed
-
-
-Why does it say Database Error: Trino Query Error: line 1:52: mismatched input 'OFFSET'. Expecting: <EOF>
-Could not fetch data. Check if table 'iceberg.adhoc.ufaa_23203159' exists.
-Page 1     When actually in testconnection itis successful as Trino HTTP Connection Check
+Trino HTTP Connection Check
 Test Type: CURL / HTTPS (Trino Protocol)
 
 Sending SELECT 1 to 172.23.56.100:8445...
 
-✅ Success! Connected via HTTPS.
-Array ( [test_col] => 1 )
-Checking Table: iceberg.adhoc.ufaa_23203159...
 
-✅ Table Accessible! Found 1 row(s).
-Array
-(
-    [﻿owner_name] => Elias Juma
-    [owner_dob] => 1983-01-01
-    [owner_id] => 25931089
-    [transaction_date] => 2019-05-17
-    [transaction_time] => 6:12:00 PM
-    [owner_due_amount] => 18
-)
+Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\UFAA\trino_client.php on line 105
+
+Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\UFAA\trino_client.php on line 105
