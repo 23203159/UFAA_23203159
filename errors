@@ -1,1 +1,14 @@
-http://localhost/UFAA/index.php?view=upload&error=Error%3A+Trino+Query+Error%3A+Insert+column+name+does+not+exist+in+target+table%3A+owner_name
+CREATE TABLE hive.sre.UFAA2 ( 
+	owner_name STRING, 
+	owner_dob DATE, 
+	owner_id VARCHAR(100), 
+	transaction_date DATE, 
+	transaction_time VARCHAR(20), 
+	owner_due_amount DECIMAL(15, 2), 
+	letter_sent VARCHAR(10), 
+	letter_date DATE, 
+	letter_ref_no VARCHAR(100) 
+);
+
+
+When Irun this,i get  error  SQL Error [43]: Query failed (#20251215_121025_58288_h9qhy): line 2:2: Unknown type 'STRING' for column 'owner_name'
